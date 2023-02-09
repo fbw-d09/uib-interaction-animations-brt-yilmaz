@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.wrapper {
+  margin:  250px auto;
+  background-color: white;
+  display: flex;
+  width: 800px;
+  height: 500px;
+}
+
+.strobe {
+  width: 20%;
+  background-color: white;
+  border-right: 4px solid green;
+  transition: all 1s ease-in-out;
+}
+
+.strobe:hover {
+  background-color: yellow;
+}
